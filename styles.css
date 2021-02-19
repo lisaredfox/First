@@ -1,15 +1,15 @@
-.logo__name{
+.header__logo_name{
     font-family: 'PT Serif', serif;
 }
-.menu{
+.header__menu{
     font-family:'Roboto', sans-serif;
 }
-.title__main{
+.main__title_question{
     font-family: 'PT Serif', serif;
 }
-.description__main{
+.main__description_small{
     font-family:'Roboto', sans-serif;
 }
-.button__main_schedule{
+.main__button_schedule{
     font-family:'Roboto', sans-serif;
 }
