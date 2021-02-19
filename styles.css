@@ -1,8 +1,10 @@
 .header__logo_name{
     font-family: 'PT Serif', serif;
+    padding: 40px 0px;
 }
 .header__menu{
     font-family:'Roboto', sans-serif;
+
 }
 .main__title_question{
     font-family: 'PT Serif', serif;
@@ -12,4 +14,19 @@
 }
 .main__button_schedule{
     font-family:'Roboto', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper{
+    width: 80%;
+    margin: auto;
+}
+.header__menu_item{
+    padding: 0px 13px;
+}
+.header__menu_item:last-child{
+    padding-right: 0px;
 }
