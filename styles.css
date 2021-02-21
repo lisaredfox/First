@@ -1,13 +1,15 @@
-.header__logo_name{
-    font-family: 'PT Serif', serif;
+.header__logo{
     padding: 40px 0px;
+    padding-left: 44px;
+    font: bold 24px/31px 'PT Serf, arial, helvetica,sans-serif';
+    position: relative;
 }
 .header__menu{
     font-family:'Roboto', sans-serif;
 
 }
 .main__title_question{
-    font-family: 'PT Serif', serif;
+    font-family: 'PT Serif', 'Arial, Helvetica, sans-serif';
 }
 .main__description_small{
     font-family:'Roboto', sans-serif;
@@ -29,4 +31,22 @@
 }
 .header__menu_item:last-child{
     padding-right: 0px;
+}
+.logo__circle{
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    opacity: .7;
+}
+.logo__circle_color_blue{
+    left: 8px;
+    top: 56%;
+    background: #C8DBFB;
+    }
+.logo__circle_color_darkblue{
+    background: #0056EC;
 }
