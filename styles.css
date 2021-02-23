@@ -2,19 +2,19 @@
     padding: 40px 0px;
     padding-left: 44px;
     position: relative;
-    font: bold 24px/31px 'PT Serf','arial','helvetica','sans-serif';
+    font: bold 24px/31px 'pt_serifbold','arial','helvetica','sans-serif';
     }
 .header__menu{
-    font-family:'Roboto', 'sans-serif';
+    font-family:'robotoregular', 'sans-serif';
 }
 .main__title_question{
-    font-family: 'PT Serif', 'Arial', 'Helvetica', 'sans-serif';
+    font-family: 'pt_serifbold', 'Arial', 'Helvetica', 'sans-serif';
 }
 .main__description_small{
-    font-family:'Roboto', 'sans-serif';
+    font-family:'robotoregular', 'sans-serif';
 }
 .main__button_schedule{
-    font-family:'Roboto', 'sans-serif';
+    font-family:'robotoregular', 'sans-serif';
 }
 .header{
     display: flex;
@@ -27,6 +27,11 @@
 }
 .header__menu_item{
     padding: 0px 13px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+    color: #000;
 }
 .header__menu_item:last-child{
     padding-right: 0px;
