@@ -1,21 +1,20 @@
 .header__logo{
     padding: 40px 0px;
     padding-left: 44px;
-    font: bold 24px/31px 'PT Serf, arial, helvetica,sans-serif';
     position: relative;
-}
+    font: bold 24px/31px 'PT Serf','arial','helvetica','sans-serif';
+    }
 .header__menu{
-    font-family:'Roboto', sans-serif;
-
+    font-family:'Roboto', 'sans-serif';
 }
 .main__title_question{
-    font-family: 'PT Serif', 'Arial, Helvetica, sans-serif';
+    font-family: 'PT Serif', 'Arial', 'Helvetica', 'sans-serif';
 }
 .main__description_small{
-    font-family:'Roboto', sans-serif;
+    font-family:'Roboto', 'sans-serif';
 }
 .main__button_schedule{
-    font-family:'Roboto', sans-serif;
+    font-family:'Roboto', 'sans-serif';
 }
 .header{
     display: flex;
