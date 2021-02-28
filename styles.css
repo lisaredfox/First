@@ -1,18 +1,21 @@
 .header__logo{
-    padding: 40px 0px;
+    padding: 2% 0px;
     padding-left: 44px;
     position: relative;
-    font: bold 24px/31px 'pt_serifbold','arial','helvetica','sans-serif';
+    font: bold 24px/32px 'pt_serifbold','arial','helvetica','sans-serif';
     }
 .header{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 100px;
+        margin-bottom: 9%;
     }
 .wrapper{
         width: 80%;
         margin: auto;
+    }
+    .header__menu{
+        padding-top: 1%;
     }
 .header__menu_item{
         margin: 0px 13px;
@@ -66,27 +69,26 @@
         left: 0px;
     }
 .main__title_question{
-    font: 700 50px/66px 'pt_serifbold', 'Arial', 'Helvetica', 'sans-serif';
+    font: 700 66px/87px 'pt_serifbold', 'Arial', 'Helvetica', 'sans-serif';
     margin: 0 0 40px 0;
-    padding-top: 15px;
+    position: relative;
 }
 .main__section{
     padding-right: 63%;
-    padding: 0 63% 100px 0;
+    padding: 70px 63% 50% 0;
     background: top right no-repeat url(img/Frame\ \(1\).svg);
-    position: relative;
 }
 .main__description_small{
-    font: 600 18px/21px 'robotoregular', 'sans-serif';
-    margin: 0 0 41px 0;
-    width: 90%;
+    font: 600 22px/26px 'robotoregular', 'sans-serif';
+    margin: 0 0 13% 0;
+    width: 80%;
     }
 .main__button_schedule{
-    font: 500 14px/16px 'robotoregular', 'sans-serif';
+    font: 500 18px/21px 'robotoregular', 'sans-serif';
     color: #fff;
     text-decoration: none;
     background: #0056EC;
-    padding: 14px 16px;
+    padding: 18px 26px;
     border-radius: 4px;
     transition: .5s;
 }
@@ -94,27 +96,27 @@
     display: block;
     content: "";
     position: absolute;
-    width: 36%;
-    height: 53px;
+    width: 90%;
+    height: 69px;
     background: #ECF3FF;
     left: 0px;
     z-index: -1;
-    top: 20%;
+    top: 38%;
 }
 .main__title_question::after{
     display: block;
     content: "";
     position: absolute;
-    width: 21%;
-    height: 53px;
+    width: 53%;
+    height: 69px;
     background: #ECF3FF;
     left: 0px;
     z-index: -1;
-    top: 34%;
+    bottom: 2%;
 }
 .main__button_schedule:hover{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 22px;
     background: #00AD9F;
     color: #ECF3FF;
 }
