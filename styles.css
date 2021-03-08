@@ -14,7 +14,7 @@
         width: 80%;
         margin: auto;
     }
-    .header__menu{
+.header__menu{
         padding-top: 1%;
     }
 .header__menu_item{
@@ -74,7 +74,6 @@
     position: relative;
 }
 .main__section{
-    padding-right: 63%;
     padding: 70px 63% 50% 0;
     background: top right no-repeat url(img/Frame\ \(1\).svg);
 }
@@ -123,6 +122,54 @@
 .header__menu_for_mobile{
     display: none;
 }
+@media (max-width: 1366px){
+    .main__title_question{
+        font: 700 50px/66px 'pt_serifbold', 'Arial', 'Helvetica', 'sans-serif';
+    }
+.main__description_small{
+        font: 600 18px/21px 'robotoregular', 'sans-serif';
+    }
+.main__section{
+        background-size: 55%;
+        padding: 2% 53% 50% 0;
+    }
+.wrapper{
+    width: 69%;
+}
+.header__logo{
+    padding: 3% 0 0 44px;
+}
+.header__menu_item{
+    margin: 0px 13px;
+    font: 500 14px/16px 'robotoregular', 'sans-serif';
+}
+.logo__circle{
+    top: 80%;
+}
+.header__menu{
+    padding-top: 4%;
+}
+.header{
+    margin-bottom: 13%;
+}
+.main__button_schedule{
+    font: 500 14px/16px 'robotoregular', 'sans-serif';
+    padding: 16px 24px;
+}
+.main__title_question::after{
+    height: 53px;
+    width: 50%;
+}
+.main__title_question::before{
+    height: 53px;
+    width: 87%;
+}
+}
+@media(max-width: 1024px){
+.wrapper{
+    width: 93%;
+}
+}
 @media(max-width: 375px){
 .header__menu{
     display: none;
@@ -169,38 +216,41 @@ padding: 82% 0 0 0;
     display: block;
     visibility: visible;
 }
+#hamburger:checked ~.hamburger__menu_btn{
+    z-index: 10;
+}
 #hamburger:checked ~.hamburger__menu_checked{
     visibility: visible;
     display: block;
     top: 0;
-    width: 300px;
+    width: 375px;
     height: 100%;
     text-align: center;
-    background-color: #ECEFF1;
+    background-color: #fff;
     position: absolute;
     left: 0;
     z-index: 2;
+    padding: 47% 0;
+    margin: 0;
 }
 #hamburger:checked~.hamburger__menu_btn > span {
     transform: rotate(45deg);
-    z-index: 3;
   }
 #hamburger:checked~.hamburger__menu_btn > span::before {
     top: 0;
     transform: rotate(0);
-    z-index: 3;
   }
 #hamburger:checked~.hamburger__menu_btn > span::after {
     top: 0;
     transform: rotate(90deg);
-    z-index: 3;
   }
 .hamburgr__menu_item{
-    font: 500 30px/35px 'robotoregular', 'sans-serif';
+    font: 600 30px/35px 'robotoregular', 'sans-serif';
     text-decoration: none;
     color: #000;
     display: block;
     padding: 12px 24px;
+    margin-right: 10%;
 }
 .hamburger__menu_checked{
     display: none;
@@ -223,7 +273,6 @@ padding: 82% 0 0 0;
   top: 8px;
 }
 .hamburger__menu_btn{
-    position: relative;
     display: flex;
     align-items: center;
     position: fixed;
@@ -237,8 +286,7 @@ padding: 82% 0 0 0;
 #hamburger{
     opacity: 0;
 }
-
-.hamburger__menu_item:hover {
+.hamburgr__menu_item:hover {
     background-color: #CFD8DC;
   }
 }
