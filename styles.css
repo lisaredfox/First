@@ -1,3 +1,21 @@
+@keyframes tremor{
+    0%,100%{
+        left: -3px;
+        transform: translateX(10%);
+    }
+    25%{
+        top: 3px;
+        transform: translateY(10%);
+    }
+    50%{
+        left: 3px;
+        transform: translateX(10%);
+    }
+    75%{
+        top: -3px;
+        transform: translateY(10%);
+    }
+}
 .header__logo{
     padding: 2% 0px;
     padding-left: 44px;
@@ -16,8 +34,7 @@
     }
 .header__menu{
         padding-top: 3px;
-        animation: moving 5s infinite;
-    }
+        }
 .header__menu_item{
         margin: 0px 13px;
         font: 500 18px/21px 'robotoregular', 'sans-serif';
@@ -28,6 +45,9 @@
     }
 .header__menu_item:last-child{
         margin-right: 0px;
+    }
+.header__menu_item:first-child{
+        animation: tremor 0.3s infinite 2s;
     }
 .logo__circle{
         width: 28px;
@@ -91,7 +111,7 @@
     padding: 18px 26px;
     border-radius: 4px;
     transition: .5s;
-}
+    }
 .main__title_question::before{
     display: block;
     content: "";
@@ -294,7 +314,7 @@
     height: 34px;
     cursor: pointer;
     z-index: 1;
-}
+    }
 #hamburger{
     display: none;
 }
