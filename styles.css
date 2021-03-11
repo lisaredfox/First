@@ -232,13 +232,13 @@
 #hamburger:checked ~.hamburger__menu_checked{
     visibility: visible;
     display: block;
-    top: 0;
     width: 100vw;
-    height: 100%;
+    height: 100vw;
     text-align: center;
     background-color: #fff;
     position: absolute;
-    left: 0;
+    top: 0%;
+    left: 0%;
     z-index: 2;
     padding: 47% 0;
     margin: 0;
@@ -295,7 +295,7 @@
     z-index: 1;
 }
 #hamburger{
-    opacity: 0;
+    display: none;
 }
 .hamburgr__menu_item:hover {
     background-color: #CFD8DC;
