@@ -211,6 +211,7 @@
 }
 .wrapper{
     width: 80%;
+    padding-bottom: 10%;
 }
 .main__title_question::after{
     width: 44%;
