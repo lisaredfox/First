@@ -1,19 +1,11 @@
-@keyframes tremor{
-    0%,100%{
-        left: -3px;
-        transform: translateX(10%);
+@keyframes blue{
+    0%, 100% {
+    color:black;
+    background: lightblue;
     }
-    25%{
-        top: 3px;
-        transform: translateY(10%);
-    }
-    50%{
-        left: 3px;
-        transform: translateX(10%);
-    }
-    75%{
-        top: -3px;
-        transform: translateY(10%);
+    50% {
+    color: lightblue;
+    background: black;
     }
 }
 .header__logo{
@@ -47,7 +39,7 @@
         margin-right: 0px;
     }
 .header__menu_item:first-child{
-        animation: tremor 0.3s infinite 2s;
+        animation: blue .8s infinite 10s;
     }
 .logo__circle{
         width: 28px;
@@ -262,7 +254,7 @@
     top: 0%;
     left: 0%;
     z-index: 2;
-    padding: 47% 0;
+    padding: 47% 0 0 0;
     margin: 0;
     list-style-type: none;
 }
