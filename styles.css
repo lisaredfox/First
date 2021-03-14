@@ -160,7 +160,7 @@
 }
 
 @media (max-width: 1800px) {
-  .main__title_question{
+  .main__title_question {
     font: 700 50px/66px 'pt_serif', 'pt_serifbold', 'Arial', 'Helvetica', 'sans-serif';
 }
 
@@ -245,7 +245,7 @@
 }
 
   .main__section {
-    background: top center no-repeat url(img/Frame\ \(1\).svg);
+    background: top center no-repeat url(img/Frame.svg);
     background-size: 73%;
     text-align: center;
     padding: 70% 0 0 0;
@@ -285,41 +285,6 @@
   .header__menu_for_mobile {
     display: block;
     visibility: visible;
-}
-
-  #hamburger:checked ~.hamburger__menu_btn {
-    z-index: 10;
-}
-
-  #hamburger:checked ~.hamburger__menu_checked {
-    visibility: visible;
-    display: block;
-   width: 100vw;
-    height: 100vw;
-    text-align: center;
-    background-color: #fff;
-    position: absolute;
-    right: 0%;
-    top: 0%;
-    left: 0%;
-    z-index: 2;
-    padding: 47% 0 0 0;
-    margin: 0;
-    list-style-type: none;
-}
-
-  #hamburger:checked~.hamburger__menu_btn > span {
-    transform: rotate(45deg);
-}
-
-  #hamburger:checked~.hamburger__menu_btn > span::before {
-    top: 0;
-    transform: rotate(0);
-}
-
-  #hamburger:checked~.hamburger__menu_btn > span::after {
-    top: 0;
-    transform: rotate(90deg);
 }
 
   .hamburgr__menu_item {
@@ -374,39 +339,74 @@
 
   .hamburgr__menu_item:hover {
     background-color: #cfd8dc;
+
+}   
+  #hamburger:checked ~ .hamburger__menu_btn {
+    z-index: 10;
+}
+
+  #hamburger:checked ~ .hamburger__menu_checked {
+    visibility: visible;
+    display: block;
+   width: 100vw;
+    height: 100vw;
+    text-align: center;
+    background-color: #fff;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    left: 0%;
+    z-index: 2;
+    padding: 47% 0 0 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+  #hamburger:checked ~ .hamburger__menu_btn > span {
+    transform: rotate(45deg);
+}
+
+  #hamburger:checked ~ .hamburger__menu_btn > span::before {
+    top: 0;
+    transform: rotate(0);
+}
+
+  #hamburger:checked ~ .hamburger__menu_btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
 }
 }
 
 @media (max-width: 600px) {
 
-.logo__circle {
-  top: 30%;
-  width: 27px;
-  height: 27px;
+  .logo__circle {
+    top: 30%;
+    width: 27px;
+    height: 27px;
 }
 
-.main__title_question {
-  font: 700 30px/40px 'pt_serifbold', 'Arial', 'Helvetica', 'sans-serif';
-  margin-bottom: 9%;
+  .main__title_question {
+    font: 700 30px/40px 'pt_serifbold', 'Arial', 'Helvetica', 'sans-serif';
+    margin-bottom: 9%;
 }
 
-.main__section {
-  background-size: 90%;
-  padding: 82% 0 0 0;
+  .main__section {
+    background-size: 90%;
+    padding: 82% 0 0 0;
 }
 
-.main__description_small {
-  font: 600 16px/19px 'robotoregular', 'sans-serif';
-  margin: 0 auto 12%;
+  .main__description_small {
+    font: 600 16px/19px 'robotoregular', 'sans-serif';
+    margin: 0 auto 12%;
 }
 
-.main__button_schedule {
-  font: 500 14px/16px 'robotoregular', 'sans-serif';
-  padding: 14px 23px;
+  .main__button_schedule {
+    font: 500 14px/16px 'robotoregular', 'sans-serif';
+    padding: 14px 23px;
 }
 
-.wrapper {
-  width: 89%;
+  .wrapper {
+    width: 89%;
 }
 
 .main__title_question::after {
