@@ -1,11 +1,11 @@
 @keyframes blue {
-    
-  0%, 100% {
-    color:black;
+  0%,
+  100% {
+    color: black;
     background: lightblue;
     }
 
-    50% {
+  50% {
     color: lightblue;
     background: black;
 }
@@ -15,7 +15,7 @@
   padding: 2% 0px;
   padding-left: 44px;
   position: relative;
-  font: bold 24px/32px 'pt_serif','pt_serifbold','arial','helvetica','sans-serif';
+  font: bold 24px/32px 'invalid-pt_serifbold', 'arial', 'helvetica', 'sans-serif';
 }
 
 .header {
@@ -36,7 +36,7 @@
 
 .header__menu_item {
   margin: 0px 13px;
-  font: 500 18px/21px 'roboto', 'robotoregular', 'sans-serif';
+  font: 500 18px/21px 'invalid-robotoregular', 'sans-serif';
   text-decoration: none;
   color: #000;
   position: relative;
@@ -98,18 +98,18 @@
 }
 
 .main__title_question {
-  font: 700 66px/87px 'pt_serif', 'pt_serifbold', 'Arial', 'Helvetica', 'sans-serif';
+  font: 700 66px/87px 'invalid-pt_serifbold', 'Arial', 'Helvetica', 'sans-serif';
   margin: 0 0 40px 0;
   position: relative;
 }
 
 .main__section {
   padding: 72px 63% 20% 0;
-  background: top right no-repeat url(img/Frame\ \(1\).svg) ;
+  background: top right no-repeat url(img/Frame.svg);
 }
 
 .main__description_small {
-  font: 600 22px/26px 'roboto', 'robotoregular', 'sans-serif';
+  font: 600 22px/26px 'invalid-robotoregular', 'sans-serif';
   margin: 0 0 11% 0;
   width: 80%;
 }
@@ -184,7 +184,7 @@
 
   .header__menu_item {
     margin: 0px 13px;
-    font: 500 14px/16px 'roboto','robotoregular', 'sans-serif';
+    font: 500 14px/16px 'invalid-robotoregular', 'sans-serif';
 }
 
   .logo__circle {
@@ -203,8 +203,8 @@
   .main__button_schedule {
     font: 500 14px/16px 'roboto', 'robotoregular', 'sans-serif';
     padding: 16px 24px;
-
 }
+
   .main__title_question::after {
     height: 53px;
     width: 50%;
@@ -217,163 +217,163 @@
 }
 
 @media (max-width: 1360px) {
-.wrapper{
-  width: 93%;
+  .wrapper{
+    width: 93%;
 }
 }
 
-@media(max-width: 990px) {
-.header {
-  padding-top: 5%;
-  margin-bottom: 7%;
-  position: relative;
+ @media(max-width: 990px) {
+  .header {
+    padding-top: 5%;
+    margin-bottom: 7%;
+    position: relative;
 }
 
-.header__menu {
-  display: none;
+  .header__menu {
+    display: none;
 }
 
-.logo__circle {
-  top: 60%;
-  width: 40px;
-  height: 40px;
+  .logo__circle {
+    top: 60%;
+    width: 40px;
+    height: 40px;
 }
 
-.main__title_question {
-  font: 700 52px/66px 'pt_serifbold', 'Arial', 'Helvetica', 'sans-serif';
-  margin-bottom: 10%;
+  .main__title_question {
+    font: 700 52px/66px 'invalid-pt_serifbold', 'Arial', 'Helvetica', 'sans-serif';
+    margin-bottom: 10%;
 }
 
-.main__section {
-  background: top center no-repeat url(img/Frame\ \(1\).svg);
-  background-size: 73%;
-  text-align: center;
-  padding: 70% 0 0 0;
+  .main__section {
+    background: top center no-repeat url(img/Frame\ \(1\).svg);
+    background-size: 73%;
+    text-align: center;
+    padding: 70% 0 0 0;
 }
 
-.main__description_small {
-  font: 600 18px/21px 'robotoregular', 'sans-serif';
-  margin: 0 auto 13%;
+  .main__description_small {
+    font: 600 18px/21px 'invalid-robotoregular', 'sans-serif';
+    margin: 0 auto 13%;
 }
 
 .main__button_schedule {
-  font: 500 14px/16px 'robotoregular', 'sans-serif';
-  padding: 14px 23px;
+    font: 500 14px/16px 'robotoregular', 'sans-serif';
+    padding: 14px 23px;
 }
 
-.header__logo_title {
-  visibility: hidden;
+  .header__logo_title {
+    visibility: hidden;
 }
 
-.wrapper {
-  width: 80%;
-  padding-bottom: 10%;
+  .wrapper {
+    width: 80%;
+    padding-bottom: 10%;
 }
 
-.main__title_question::after {
-  width: 44%;
-  height: 32px;
-  left: 25%;
+  .main__title_question::after {
+    width: 44%;
+    height: 32px;
+    left: 25%;
 }
 
-.main__title_question::before {
-  width: 74%;
-  height: 32px;
-  left: 13%;
+  .main__title_question::before {
+    width: 74%;
+    height: 32px;
+    left: 13%;
 }
 
-.header__menu_for_mobile {
-  display: block;
-  visibility: visible;
+  .header__menu_for_mobile {
+    display: block;
+    visibility: visible;
 }
 
-#hamburger:checked ~.hamburger__menu_btn {
-  z-index: 10;
+  #hamburger:checked ~.hamburger__menu_btn {
+    z-index: 10;
 }
 
-#hamburger:checked ~.hamburger__menu_checked {
-  visibility: visible;
-  display: block;
-  width: 100vw;
-  height: 100vw;
-  text-align: center;
-  background-color: #fff;
-  position: absolute;
-  right: 0%;
-  top: 0%;
-  left: 0%;
-  z-index: 2;
-  padding: 47% 0 0 0;
-  margin: 0;
-  list-style-type: none;
+  #hamburger:checked ~.hamburger__menu_checked {
+    visibility: visible;
+    display: block;
+   width: 100vw;
+    height: 100vw;
+    text-align: center;
+    background-color: #fff;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    left: 0%;
+    z-index: 2;
+    padding: 47% 0 0 0;
+    margin: 0;
+    list-style-type: none;
 }
 
-#hamburger:checked~.hamburger__menu_btn > span {
-  transform: rotate(45deg);
+  #hamburger:checked~.hamburger__menu_btn > span {
+    transform: rotate(45deg);
 }
 
-#hamburger:checked~.hamburger__menu_btn > span::before {
-  top: 0;
-  transform: rotate(0);
+  #hamburger:checked~.hamburger__menu_btn > span::before {
+    top: 0;
+    transform: rotate(0);
 }
 
-#hamburger:checked~.hamburger__menu_btn > span::after {
-  top: 0;
-  transform: rotate(90deg);
+  #hamburger:checked~.hamburger__menu_btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
 }
 
-.hamburgr__menu_item {
-  font: 600 30px/35px 'robotoregular', 'sans-serif';
-  text-decoration: none;
-  color: #000;
-  display: block;
-  padding: 12px 24px;
-  margin-right: 10%;
+  .hamburgr__menu_item {
+    font: 600 30px/35px 'robotoregular', 'sans-serif';
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 12px 24px;
+    margin-right: 10%;
 }
 
-.hamburger__menu_checked {
-  display: none;
+  .hamburger__menu_checked {
+    display: none;
 }
 
-.hamburger__menu_btn > span,
-.hamburger__menu_btn > span::before,
-.hamburger__menu_btn > span::after {
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 5px;
-  background-color:#0056EC;
+  .hamburger__menu_btn > span,
+  .hamburger__menu_btn > span::before,
+  .hamburger__menu_btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color:#0056EC;
 }
 
-.hamburger__menu_btn > span::before {
-  content: '';
-  top: -10px;
+  .hamburger__menu_btn > span::before {
+    content: '';
+    top: -10px;
 }
 
-.hamburger__menu_btn > span::after {
-  content: '';
-  top: 10px;
+  .hamburger__menu_btn > span::after {
+    content: '';
+    top: 10px;
 }
 
-.hamburger__menu_btn {
-  visibility: visible;
-  display: flex;
-  position: fixed;
-  align-items: center;
-  top: 7%;
-  right: 15%;
-  width: 42px;
-  height: 34px;
-  cursor: pointer;
-  z-index: 1;
+  .hamburger__menu_btn {
+    visibility: visible;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    top: 7%;
+    right: 15%;
+    width: 42px;
+    height: 34px;
+    cursor: pointer;
+    z-index: 1;
 }
 
-#hamburger {
-  display: none;
+  #hamburger {
+    display: none;
 }
 
-.hamburgr__menu_item:hover {
-  background-color: #cfd8dc;
+  .hamburgr__menu_item:hover {
+    background-color: #cfd8dc;
 }
 }
 
