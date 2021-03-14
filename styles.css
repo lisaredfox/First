@@ -1,8 +1,10 @@
-@keyframes blue{
-    0%, 100% {
+@keyframes blue {
+    
+  0%, 100% {
     color:black;
     background: lightblue;
     }
+
     50% {
     color: lightblue;
     background: black;
@@ -13,7 +15,7 @@
   padding: 2% 0px;
   padding-left: 44px;
   position: relative;
-  font: bold 24px/32px 'pt_serifbold','arial','helvetica','sans-serif';
+  font: bold 24px/32px 'pt_serif','pt_serifbold','arial','helvetica','sans-serif';
 }
 
 .header {
@@ -34,11 +36,11 @@
 
 .header__menu_item {
   margin: 0px 13px;
-  font: 500 18px/21px 'robotoregular', 'sans-serif';
+  font: 500 18px/21px 'roboto', 'robotoregular', 'sans-serif';
   text-decoration: none;
   color: #000;
   position: relative;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .header__menu_item:last-child {
@@ -158,7 +160,6 @@
 }
 
 @media (max-width: 1800px) {
-
   .main__title_question{
     font: 700 50px/66px 'pt_serif', 'pt_serifbold', 'Arial', 'Helvetica', 'sans-serif';
 }
@@ -216,14 +217,12 @@
 }
 
 @media (max-width: 1360px) {
-
 .wrapper{
   width: 93%;
 }
 }
 
 @media(max-width: 990px) {
-
 .header {
   padding-top: 5%;
   margin-bottom: 7%;
